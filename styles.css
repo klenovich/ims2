@@ -1,0 +1,87 @@
+/* styles.css */
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+/* Main content styles */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* User account styles */
+.user-account {
+  margin-bottom: 20px;
+}
+
+.user-account h2 {
+  margin: 0;
+}
+
+.user-account form {
+  margin-top: 20px;
+}
+
+.user-account input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.user-account button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Inventory management styles */
+.inventory-management {
+  margin-bottom: 20px;
+}
+
+.inventory-management h2 {
+  margin: 0;
+}
+
+.inventory-management form {
+  margin-top: 20px;
+}
+
+.inventory-management input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.inventory-management button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+}
